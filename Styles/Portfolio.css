@@ -1,4 +1,5 @@
 
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -24,6 +25,18 @@
   color: #757575;
 }
 
+.title-primary{
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+}
+
+.description-primary{
+  font-weight: normal;
+  font-size: 15px;
+  color: #757575;
+}
+
 
 .btn-peimary{
   font-weight: bold;
@@ -33,6 +46,15 @@
   border: none;
   padding: 18px 35px;
   border-radius: 5px;
+}
+
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.text-center-primary{
+  text-align: center;
 }
 
 /* Nav styles */
@@ -129,4 +151,73 @@ header div button{
   border: #FD6E0A solid 1px ;
   padding: 18px 35px;
   border-radius: 5px;
+}
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.About{
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 157px;
+  margin-top: 130px;
+  border-radius: 10px;
+}
+
+.item-description{
+  font-weight: bold;
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-description{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.item-title{
+  margin-bottom: -10px;
+}
+
+.what-title{
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 0px;
+}
+
+.what-description{
+  font-weight: normal;
+  font-size: 18px;
+  color: #757575;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.skill-container-m{
+  display: flex;
+  gap: 20px;
+  
+}
+
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+
+.resume-container{
+  display: flex;
+}
+
+hr{
+  margin-right: 30px;
+}
+
+.resumes-buttom{
+  margin-top: 20px;
 }
